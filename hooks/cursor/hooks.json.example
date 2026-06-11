@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "hooks": {
+    "beforeSubmitPrompt": [
+      {
+        "command": "/usr/bin/env python3 \"$HOME/Projects/ai-status-light/cli/light.py\" thinking  # ai-status-light"
+      }
+    ],
+    "stop": [
+      {
+        "command": "/usr/bin/env python3 \"$HOME/Projects/ai-status-light/cli/light.py\" done  # ai-status-light"
+      }
+    ]
+  }
+}

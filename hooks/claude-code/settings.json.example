@@ -1,0 +1,37 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/usr/bin/env python3 \"$HOME/Projects/ai-status-light/cli/light.py\" thinking  # ai-status-light"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/usr/bin/env python3 \"$HOME/Projects/ai-status-light/cli/light.py\" done  # ai-status-light"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/usr/bin/env python3 \"$HOME/Projects/ai-status-light/cli/from_claude_hook.py\"  # ai-status-light"
+          }
+        ]
+      }
+    ]
+  }
+}
