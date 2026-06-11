@@ -22,6 +22,9 @@ Thumbs.db
 # Local config
 .env
 
+# Personal scratch / notes
+to-do.md
+
 # Build artifacts
 build/
 dist/
