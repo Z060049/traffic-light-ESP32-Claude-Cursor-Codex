@@ -1,14 +1,20 @@
-# AI Status Light
+# status-light (Claude Code, Cursor, Codex)
 
-A physical traffic-light status indicator for AI coding agents like Claude Code and Cursor.
+A physical traffic-light status indicator for AI coding agents.
+
+<p align="center">
+  <a href="https://www.youtube.com/shorts/_3KwVCMfQk8">
+    <img src="https://img.youtube.com/vi/_3KwVCMfQk8/hqdefault.jpg" alt="status-light demo" width="360">
+  </a>
+  <br>
+  <em>Click to watch the 30-second demo on YouTube</em>
+</p>
 
 - **Yellow (breathing)** — AI is working
 - **Green** — task completed
 - **Red** — tool call failed
 
 It turns invisible AI agent activity into a glance-able desk signal. Instead of staring at a terminal wondering whether your agent is still thinking, you just look up.
-
-> _Demo GIF goes here once you record one — drop it in `images/demo.gif` and link it._
 
 ---
 
