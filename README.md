@@ -2,13 +2,11 @@
 
 A physical traffic-light status indicator for AI coding agents.
 
-<p align="center">
-  <a href="https://www.youtube.com/shorts/_3KwVCMfQk8">
-    <img src="https://img.youtube.com/vi/_3KwVCMfQk8/hqdefault.jpg" alt="status-light demo" width="360">
-  </a>
-  <br>
-  <em>Click to watch the 30-second demo on YouTube</em>
-</p>
+<a href="https://www.youtube.com/shorts/_3KwVCMfQk8">
+  <img src="https://img.youtube.com/vi/_3KwVCMfQk8/hqdefault.jpg" alt="status-light demo" width="560">
+</a>
+
+*Click to watch the 30-second demo on YouTube*
 
 - **Yellow (breathing)** — AI is working
 - **Green** — task completed
