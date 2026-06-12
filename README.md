@@ -23,6 +23,10 @@ Works with Claude Code, Cursor, and Codex.
 - A USB **data** cable for the ESP32-to-Mac connection (charge-only cables won't show a serial port)
 - A Mac (Linux/Windows should also work, but macOS is what's tested)
 
+Here's the full hardware setup once everything is connected:
+
+<img src="images/full-setup.jpg" alt="Full hardware setup: laptop, USB cable, ESP32, traffic-light LED module" width="420">
+
 ---
 
 ## Setup
@@ -36,6 +40,8 @@ Works with Claude Code, Cursor, and Codex.
    | `R`   | `GPIO16` |
    | `Y`   | `GPIO17` |
    | `G`   | `GPIO18` |
+
+   <img src="images/esp32-wiring.jpg" alt="ESP32 with jumper wires plugged into GND, GPIO16, GPIO17, GPIO18" width="360">
 
 3. **Upload the firmware.** In Arduino IDE, open [`firmware/esp32-traffic-light/esp32-traffic-light.ino`](firmware/esp32-traffic-light/esp32-traffic-light.ino), select **Board: ESP32 Dev Module** and the matching **Port** (something like `/dev/cu.wchusbserial...`), then click upload.
 4. **Clone this repo and run the installer.**
