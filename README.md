@@ -18,9 +18,9 @@ Works with Claude Code, Cursor, and Codex.
 
 ## What you need
 
-- ESP32 dev board — [Amazon](https://www.amazon.com/dp/B09TL6TP9T?ref=ppx_yo2ov_dt_b_fed_asin_title)
-- Mini traffic-light LED module — [Amazon](https://www.amazon.com/dp/B0FR3GVRD5?ref=ppx_yo2ov_dt_b_fed_asin_title)
-- A USB **data** cable (charge-only cables won't work)
+- ESP32 dev board — [Amazon](https://www.amazon.com/dp/B0FR3GVRD5?ref=ppx_yo2ov_dt_b_fed_asin_title)
+- Mini traffic-light LED module (jumper wires included) — [Amazon](https://www.amazon.com/dp/B09TL6TP9T?ref=ppx_yo2ov_dt_b_fed_asin_title)
+- A USB **data** cable for the ESP32-to-Mac connection (charge-only cables won't show a serial port)
 - A Mac (Linux/Windows should also work, but macOS is what's tested)
 
 ---
